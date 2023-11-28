@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar CSS Part */
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 12px 2px #eeeeee;
+}
+.logo-container{
+    margin-left: 4%;
+}
+.myntra-logo{
+    height: 40px;
+}
+.nav-bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    margin: 18px;
+    color: #282c3f;
+    padding: 26px 0;
+}
+nav ul li a:hover{
+    border-bottom: 4px solid #ff3f6c;
+}
+nav ul li a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+.search-bar{
+    display: flex;
+    height: 40px;
+    width: 35%;
+    align-items: center;
+}
+.search-icon{
+    box-sizing: content-box;
+    padding: 10px;
+    height: 20px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    border-radius: 5px 0 0 5px;
+}
+.search-input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    border: none;
+    height: 40px;
+    flex-grow: 1;
+    border-radius: 0 5px 5px 0;
+}
+.action-bar{
+    margin-right: 4%;
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.action-icons{
+    font-size: 22px;
+    color: #3e4152;
+    font-weight: 400;
+}
+.action-names{
+    font-size: 12px;
+    font-weight: 700;
+    color: #3e4152;
+}
+.bag-count{
+    background-color: #ff3f6c;
+    border: none;
+    border-radius: 50%;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 6px;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    left: 13px;
+    bottom: 44px;
+    position: relative;
+    top: 25;
+}
+
+/* Main Section CSS Part */
+
+.banner-container{
+    margin: 40px 0;
+}
+.banner-image{
+    width: 100%;
+}
+.offers-heading{
+    color: #3e4152;
+    letter-spacing: .15em;
+    margin: 50px 0 30px 45px;
+    max-height: 5em;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.items-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Footer CSS Part  */
+
+.footer-container{
+    padding: 30px 0px 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer-column a{
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.copyrights-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+}
+.download-icons{
+    height: 70px;
+    width: 175px;
+}
+
+
+/* MEN Section CSS Part */
+
+.full-items-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 40px 10%;
+}
+.item-container{
+    
+    width: 250px;
+    position: relative;
+}
+.item-image{
+    height: 337px;
+    width: 100%;
+}
+.rating{
+    color:#3e4152;
+    font-size: 14px;
+    position: absolute;
+    bottom: 135px;
+    left: 8px;
+    background-color: #ffffffbc;
+    border-radius: 3px;
+    padding: 5px;
+}
+.rating span img{
+    height: 15px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+.company-name{
+    font-size: 16px;
+    line-height: 1;
+    color: #282c3f;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+.item-name{
+    color: #535766;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 400;
+    line-height: 1;
+    text-overflow: ellipsis;
+}
+.pricing-container{
+    line-height: 30px;
+    
+    
+}
+.current-price{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2;
+}
+.original-price{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount{
+    color: #ff3f6c;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.bag-btn span{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 2px;
+    margin-right: 5px;
+}
+.bag-btn{
+    width: 100%;
+    height: 40px;
+    background-color: #ff3f6c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* Bag Page CSS Part  */
+
+.cart-bag-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+}
+.cart-bagItems-container{
+    width: 60%;
+    margin-top: 60px;
+    margin-right: 25px;
+   
+}
+.cart-bagItems{
+    display: flex;
+    margin-bottom: 25px;
+    border: none solid #3e4152;
+    box-shadow: 0px 2px 10px 1px #e7e7e7; 
+}
+.cart-item-image-box{
+    display: inline-block;
+    width: 20%;
+    margin: 15px 15px 15px 25px; 
+}
+.cart-item-image{
+    width: 175px;
+    padding: 10px;
+}
+.cart-item-names-box{
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+}
+.delivery-time{
+    font-size: 14px;
+    line-height: 2;
+}
+.cancel-button{
+    display: inline-block;
+}
+.cancel-button span{
+    margin-top: 25px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.cart-items-pricing-container{
+    width: 20%;
+    margin-top: 60px;
+    border: none solid #3e4152;
+    box-shadow: 0px 2px 10px 1px #e7e7e7; 
+    padding: 25px;
+    height: 280px;
+}
+.pricing-heading{
+    margin: 0px 0px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #535766;
+}
+.different-fee-boxes{
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+.fee-names{
+    color: #282c3f;
+    font-size: 14px;
+}
+.fee-prices{
+    color: #282c3f;
+    font-size: 14px;
+    float: right;
+}
+.fee-prices-low{
+    color: #03a685;
+    float: right;
+}
+.final-price-boxes{
+    margin: 10px 0;
+}
+.total-amount-fee{
+    color: #3e4152;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 16px 0;
+}
+.total-final-price{
+    color: #3e4152;
+    font-weight: 700;
+    font-size: 15px;
+    float: right;
+}
+.place-orderbtn{
+    width: 100%;
+    background-color: #ff3f6c;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    height: 40px;
+}
